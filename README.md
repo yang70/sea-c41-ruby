@@ -34,6 +34,8 @@ Class Location | Code Fellows HQ (511 Boren Ave N, Seattle, WA 98109)
 
 All prework assignments are listed in [The SEA-C33 Canvas Course](https://canvas.instructure.com/courses/917211). Canvas is the Learning Management System (LMS) we'll be using for this course. You are responsible for all assignments, events, and communications posted there.
 
+Prework must be completed before the first class period. Find prework in Canvas, assignments listed under "Class 0".
+
 ## Communication
 
 Your invitation to Canvas will come in a separate email from an "instructure.com" email address. Look for the small link at the bottom of the email that says "Join" to get into the course without a "Join Code".
