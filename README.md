@@ -25,16 +25,11 @@ Class Location | Code Fellows HQ (511 Boren Ave N, Seattle, WA 98109)
     - If you have a Windows laptop, you’ll want to set it up to dual boot into Linux. Much web development happens outside the MS stack. It’s good to learn. [Instructions to dual-boot with Ubuntu](https://help.ubuntu.com/community/WindowsDualBoot)
 
 
- 2. Please order your textbooks NOW so they arrive before class starts.
-    - It’s a 2-book set, both are excellent, both are required
-    - Get the set to save, if available: [http://www.amazon.com/dp/1118907442](http://www.amazon.com/dp/1118907442)
-    - You can also find them sold individually if needed
-
 ## Prework
 
-All prework assignments are listed in [The SEA-C33 Canvas Course](https://canvas.instructure.com/courses/917211). Canvas is the Learning Management System (LMS) we'll be using for this course. You are responsible for all assignments, events, and communications posted there.
+All prework assignments and required materials are listed in [The SEA-C33 Canvas Course](https://canvas.instructure.com/courses/917211). Canvas is the Learning Management System (LMS) we'll be using for this course. You are responsible for all assignments, events, and communications posted there.
 
-Prework must be completed before the first class period. Find prework in Canvas, assignments listed under "Class 0".
+Prework must be completed before the first class period. Find prework in Canvas, assignments listed under "Class 0". Textbook info is in the Canvas Syllabus.
 
 ## Communication
 
@@ -47,7 +42,7 @@ For real-time access to your classmates and TAs, you can also use the chat room,
 
 ## Grading Policy
 
-Code Fellows courses are ultimately graded on a complete/incomplete system. 80% of available points are required to complete the course. Individual assignments are usually graded out of 10 points. No points are taken off for late submissions, but be very wary of falling behind! Catching up in a timely manner is quite difficult.
+Code Fellows courses are ultimately graded on a complete/incomplete system. 80% of available points are required to complete the course.
 
 Co-working and Q+A class time will allow for many interactive feedback opportunities for you. Take advantage of feedback and the one-on-one, in-person time for code reviews by instructors, TAs, and your peers.
 
