@@ -45,7 +45,7 @@ For real-time access to your classmates and TAs, you can also use the chat room,
 
 ## Grading Policy
 
-Code Fellows courses are ultimately graded on a complete/incomplete system. 90% of available points are required to complete the course. Individual assignments are usually graded out of 10 points. No points are taken off for late submissions, but be very wary of falling behind! Catching up in a timely manner is quite difficult.
+Code Fellows courses are ultimately graded on a complete/incomplete system. 80% of available points are required to complete the course. Individual assignments are usually graded out of 10 points. No points are taken off for late submissions, but be very wary of falling behind! Catching up in a timely manner is quite difficult.
 
 Co-working and Q+A class time will allow for many interactive feedback opportunities for you. Take advantage of feedback and the one-on-one, in-person time for code reviews by instructors, TAs, and your peers.
 
