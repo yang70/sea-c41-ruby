@@ -1,9 +1,16 @@
 ### Install Ruby
 
-Using Homebrew, install the latest, stable version of [Ruby](https://www.ruby-lang.org/). To get started, run the following command.
+Using APT, install the latest, stable version of [Ruby](https://www.ruby-lang.org/). To get started, run the following commands.
 
 ```
-brew install ruby
+wget -O ruby-install-0.4.3.tar.gz https://github.com/postmodern/ruby-install/archive/v0.4.3.tar.gz
+tar -xzvf ruby-install-0.4.3.tar.gz
+cd ruby-install-0.4.3/
+sudo make install
+sudo ruby-install -i /usr/local/ ruby 2.2.0
+cd
+rm -rf ~/src/
+rm -rf ~/ruby-install-0.4.3/
 ```
 
 Once it finishes, verify Ruby was installed correctly by running the following command.
