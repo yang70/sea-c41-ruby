@@ -43,26 +43,26 @@ git clone CLONE_URL
 Finally, change into the project's directory:
 
 ```
-cd asea-c33-ruby
+cd sea-c33-ruby
 ```
 
 And you'll see a shell prompt like this:
 
 ```
-~/P/asea-c33-ruby master ✔
+~/P/sea-c33-ruby master ✔
 ```
 
 Here's a quick break down of what you're seeing:
 
 | Component          | Description                                         |
 | ------------------ | --------------------------------------------------- |
-| `~/P/asea-c33-ruby` | Abbreviated name of your working directory          |
+| `~/P/sea-c33-ruby` | Abbreviated name of your working directory          |
 | `master`           | Name of your repository's current branch            |
 | `✔`                | Prompt symbol indicating your staging area is clean |
 
 Anything typed appears after the green `✔` prompt symbol. :+1:
 
-**TIP:** The full name of your working directory is `~/Projects/asea-c33-ruby`. To save prompt space, Fish abbreviates it. This is especially handy for **deeply nested** directories.
+**TIP:** The full name of your working directory is `~/Projects/sea-c33-ruby`. To save prompt space, Fish abbreviates it. This is especially handy for **deeply nested** directories.
 
 
 ### Test your laptop
