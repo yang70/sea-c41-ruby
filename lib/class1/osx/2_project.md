@@ -53,7 +53,7 @@ Anything typed appears after the green `✔` prompt symbol. :+1:
 **TIP:** The full name of your working directory is `~/Projects/sea-c33-ruby`. To save prompt space, Fish abbreviates it. This is especially handy for **deeply nested** directories.
 
 
-### Install depedencies
+### Install Gem dependencies
 
 There's only three more steps to be 100% setup for the remainder of this course.
 
