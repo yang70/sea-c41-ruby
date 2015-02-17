@@ -1,0 +1,10 @@
+Documentation:
+  Enabled: false
+
+AllCops:
+  Include:
+    - Gemfile
+  Exclude:
+    - bin/*
+    - scratch.rb
+    - vendor/**/*

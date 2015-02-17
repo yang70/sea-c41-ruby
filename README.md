@@ -1,4 +1,4 @@
-# Foundations of Ruby 
+# Foundations of Ruby
 _A [Code Fellows](http://codefellows.com) Evening Course_
 
 Welcome aboard! It's so good to have you in this class.
@@ -59,3 +59,15 @@ Sincerely,
 &ndash; Charlie Crawford (instructor) and the Code Fellows Team
 
 PS: Please check the course page to get the required materials before class starts!
+
+### How to run Rubocop
+
+```
+bin/rubocop
+```
+
+### How to run RSpec
+
+```
+bin/rspec spec/class2/exercise1_spec.rb
+```
