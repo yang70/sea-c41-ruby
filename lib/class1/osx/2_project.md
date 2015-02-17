@@ -1,16 +1,4 @@
-### GitHub
-
-You're on the home stretch now! :racehorse:
-
-Run the following command to download and install some extra Git config that'll make your life easier when using GitHub from the command line:
-
-
-```
-curl -fsSL http://git.io/QxUaOQ | sh
-```
-
-
-### Fork and clone this repository
+### Project
 
 Make a `Projects` directory if you don't have one:
 
@@ -65,6 +53,37 @@ Anything typed appears after the green `✔` prompt symbol. :+1:
 **TIP:** The full name of your working directory is `~/Projects/sea-c33-ruby`. To save prompt space, Fish abbreviates it. This is especially handy for **deeply nested** directories.
 
 
+### Install depedencies
+
+There's only three more steps to be 100% setup for the remainder of this course.
+
+First, you'll need to download and install [Bundler](http://bundler.io/), a tool that'll manage 3rd-party Ruby code for your homework assignments:
+
+```
+gem install bundler
+```
+
+Second, install the 3rd-party Ruby code with Bundler:
+
+```
+bundle install --path vendor/bundle
+```
+
+
+### Add an upstream
+
+And third, you'll want to add an `upstream` remote to you locally cloned project:
+
+```
+git remote add upstream https://github.com/codefellows/sea-c33-ruby.git
+```
+
+That way you, whenever an instructor wants to update this project, you can sync up with their changes by running the following command:
+
+```
+git pull upstream master
+```
+
 ### Test your laptop
 
 Now that the working directory is set to the project's directory, you can test how well you've setup your laptop. :8ball:
@@ -103,35 +122,6 @@ git push origin master
 And, submit the link of **your forked GitHub repository** to the [Class 1 Assignment](https://canvas.instructure.com/courses/880907/assignments/3003935)  on Canvas.
 
 ![my forked repo](https://i.imgur.com/g9UtQoL.png)
-
-
-### Final setup
-
-There's only three more steps to be 100% setup for the remainder of this course.
-
-First, you'll need to download and install [Bundler](http://bundler.io/), a tool that'll manage 3rd-party Ruby code for your homework assignments:
-
-```
-gem install bundler
-```
-
-Second, install the 3rd-party Ruby code with Bundler:
-
-```
-bundle install --path vendor/bundle
-```
-
-And third, you'll want to add an `upstream` remote to you locally cloned project:
-
-```
-git remote add upstream https://github.com/codefellows/sea-c33-ruby.git
-```
-
-That way you, whenever an instructor wants to update this project, you can sync up with their changes by running the following command:
-
-```
-git pull upstream master
-```
 
 
 ### Congratulations!
