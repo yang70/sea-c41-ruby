@@ -18,17 +18,8 @@
 #   end
 # end
 
-# create the years array
-years = []
-
-# create a counter to add to 1900 while creating the years array
-counter = 0
-
-# create the years array with all years from 1900 to 2000 inclusive
-101.times do
-  years << 1900 + counter
-  counter += 1
-end
+# create the years array from 1900 to 2000 inclusive
+years = (1900..2000).to_a
 
 # iterate over the array and puts the year if it is a leap year
 years.each do |year|
