@@ -17,3 +17,23 @@
 # TIP #2: Use the `string.ljust` method from class 2 exercise 7.
 #
 # TIP #3: The width of each line is 50 characters.
+
+# creating the array's, appending so rubocop doesn't complain
+song = ['Can I Kick It?', 'Rump Shaker', 'Check Yo Self', 'Regulate']
+(song << ['I Got 5 On It', 'Ready Or Not']).flatten!
+
+artist = ['A Tribe Called Quest', 'Wreckx-n-Effect', 'Ice Cube']
+(artist << ['Warren G & Nate Dogg', 'Luniz', 'The Fugees']).flatten!
+
+year = %w(1991 1992 1993 1994 1995 1996)
+
+# create iterator for the loop below
+iterator = 0
+
+# print each song/artist/year and align
+song.each do
+  print song[iterator].ljust(20)
+  print artist[iterator].ljust(20)
+  puts year[iterator].rjust(10)
+  iterator += 1
+end
