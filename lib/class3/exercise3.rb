@@ -32,3 +32,29 @@
 #   Nana: HOW'S SCHOOL GOING?
 #   BYE
 #   Nana: BYE SWEETIE!
+
+puts 'Nana: HI SWEETIE! GIVE NANA A KISS!'
+chatting = true
+bye_count = 0
+
+while chatting
+  if bye_count == 3
+    puts 'Nana: BYE SWEETIE!'
+    chatting = false
+  else
+    response = gets.chomp
+    if response == 'BYE' && bye_count != 2
+      puts 'Nana: HOW\'S SCHOOL GOING?'
+      bye_count += 1
+    elsif response == 'BYE' && bye_count == 2
+      bye_count += 1
+    elsif response != response.upcase
+      bye_count = 0
+      puts 'Nana: HUH?! SPEAK UP, SWEETIE!'
+    else
+      bye_count = 0
+      random_year = rand(21) + 1930
+      puts "Nana: NOT SINCE #{random_year}!"
+    end
+  end
+end
