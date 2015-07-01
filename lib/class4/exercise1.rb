@@ -35,3 +35,15 @@
 #     Returns a new Array created by sorting `array`.
 #
 #     ['cat', 'bird'].sort  #=> ['bird', 'cat']
+
+puts 'Type some words to be sorted alphabetically:'
+word = gets.chomp
+word_array = []
+
+while word != ''
+  word_array << word
+  word = gets.chomp
+end
+
+puts 'Sweet! Here they are in alphabetical order:'
+puts word_array.sort
