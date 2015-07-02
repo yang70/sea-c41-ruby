@@ -34,7 +34,7 @@
 
 def ask(question)
   puts question
-  answer = gets.chomp.downcase
+  answer = gets.chomp
 
   if answer == 'y'
     'We can be friends!'
