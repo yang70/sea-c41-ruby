@@ -32,7 +32,8 @@
 require 'yaml'
 
 def records
-  ['change me']
+  # Rubocop thinks this line is too long
+  ['Incentivized methodologies', 'Seemless innovation', 'Corporate synergy', 'Scalable globalization', 'Monetized assets']
 end
 
 puts records.to_yaml

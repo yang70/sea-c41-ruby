@@ -22,11 +22,16 @@
 require 'yaml'
 
 def database
-  '/replace/me'
+  File.dirname(File.absolute_path(__FILE__)) + '/database.yml'
 end
 
 def load
-  ['fix me']
+  array = ['Incentivized methodologies', 'Seemless innovation', 'Corporate synergy', 'Scalable globalization', 'Monetized assets']
+
+  File.open database, 'w' do |f|
+    f.write array.to_yaml
+  end
+
 end
 
 records = load
