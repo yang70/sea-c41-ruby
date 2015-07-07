@@ -68,6 +68,7 @@
 #     It would return:
 #
 #       '/Users/tim/sea-c21-ruby/lib/class5/'
+# working
 
 def database
   File.dirname(File.absolute_path(__FILE__)) + '/database.yml'

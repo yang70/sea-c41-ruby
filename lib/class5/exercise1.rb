@@ -28,6 +28,7 @@
 #
 # TIP: You need to fix the `records` method so it returns an Array containing
 # the correct words.
+# working
 
 require 'yaml'
 
