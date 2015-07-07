@@ -36,7 +36,7 @@ def database
 end
 
 def save
-  File.open 'database.yml', 'w' do |f|
+  File.open database, 'w' do |f|
     f.write(records.to_yaml)
   end
 end

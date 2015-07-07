@@ -26,12 +26,8 @@ def database
 end
 
 def load
-  array = ['Incentivized methodologies', 'Seemless innovation', 'Corporate synergy', 'Scalable globalization', 'Monetized assets']
-
-  File.open database, 'w' do |f|
-    f.write array.to_yaml
-  end
-
+  file_array = File.read database
+  YAML.load file_array
 end
 
 records = load
