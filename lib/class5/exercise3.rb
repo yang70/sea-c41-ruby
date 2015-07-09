@@ -27,7 +27,7 @@
 
 require 'yaml'
 
-def records
+def records # Rubocop says this line is too long
   ['Incentivized methodologies', 'Seemless innovation', 'Corporate synergy', 'Scalable globalization', 'Monetized assets']
 end
 
