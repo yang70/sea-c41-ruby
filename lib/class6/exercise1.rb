@@ -14,6 +14,7 @@
 #
 # TIP: You need to fix the `person` method so it returns a Hash containing the
 # correct key-value pairs.
+# done
 
 require 'yaml'
 
