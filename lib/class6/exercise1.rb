@@ -19,15 +19,12 @@ require 'yaml'
 
 def person
   person_hash = {
-    name: "George Harrison"
-    age: 58
-    song: "Something"
-    url: "https://www.youtube.com/watch?v=UKAp-jRUp2o"
+    name: 'George Harrison',
+    age: 58,
+    song: 'Something',
+    url: 'https://www.youtube.com/watch?v=UKAp-jRUp2o'
   }
-  person_hash.each do |key, value|
-    print key
-    puts value
-  end
+  person_hash
 end
 
 puts person.to_yaml
