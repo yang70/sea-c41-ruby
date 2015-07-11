@@ -47,29 +47,55 @@
 
 class Integer
   def hours_in_seconds
-    # replace me
+    self * 3600
   end
 end
 
 class String
   def indent(amount = 2)
-    amount # replace me
+    prepend(' ' * amount)
   end
 end
 
 class Integer
   # rubocop:disable MethodLength
   def to_roman
-    # replace me
+    num = self
+    roman = ''
+    roman += 'M' * (num / 1000)
+    num = num % 1000
+    roman += 'CM' * (num / 900)
+    num = num % 900
+    roman += 'D' * (num / 500)
+    num = num % 500
+    roman += 'CD' * (num / 400)
+    num = num % 400
+    roman += 'C' * (num / 100)
+    num = num % 100
+    roman += 'XC' * (num / 90)
+    num = num % 90
+    roman += 'L' * (num / 50)
+    num = num % 50
+    roman += 'XL' * (num / 40)
+    num = num % 40
+    roman += 'X' * (num / 10)
+    num = num % 10
+    roman += 'IX' * (num / 9)
+    num = num % 9
+    roman += 'V' * (num / 5)
+    num = num % 5
+    roman += 'IV' * (num / 4)
+    num = num % 4
+    roman + 'I' * num
   end
 end
 
 class Array
   def second
-    # replace me
+    self[1]
   end
 
   def third
-    # replace me
+    self[2]
   end
 end
