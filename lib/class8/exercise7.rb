@@ -22,6 +22,13 @@
 
 class Array
   def each_without_yolo(&block)
-    block # fix me
+    each do |x|
+      if x.downcase != 'yolo'
+        block.call(x)
+      else
+        lts = 'Life is too short'
+        block.call(lts)
+      end
+    end
   end
 end
